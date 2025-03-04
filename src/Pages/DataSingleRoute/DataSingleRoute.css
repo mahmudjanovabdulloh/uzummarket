@@ -1,0 +1,44 @@
+.data-single-route {
+  width: 350px;
+  height: 650px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: cadetblue;
+}
+.data-single-route img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.data-single-route h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+}
+.data-single-route p {
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  margin-top: 5px;
+}
+.data-single-route button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  background-color: #ff6f00;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.data-single-route button:hover {
+  background-color: #ff4500;
+  transition: background-color 0.3s ease-in-out;
+}
+.data-single-route button:active {
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}

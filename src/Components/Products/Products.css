@@ -1,0 +1,42 @@
+.products-wrapper {
+  margin-top: 50px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.products .products-card {
+  width: 300px;
+  height: auto;
+  margin-bottom: 25px;
+  background-color: #f2f4f78e;
+}
+.products-card-icon {
+  margin-left: 270px;
+}
+.like-icon {
+  display: flex;
+  /* align-items: center; */
+  justify-content: end;
+}
+.heart-icon {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  z-index: 10;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.heart-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.heart-icon.liked {
+  color: red;
+}

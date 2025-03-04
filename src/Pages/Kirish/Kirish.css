@@ -1,0 +1,70 @@
+.kirish {
+  width: 450px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.kirish::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+.kirish .kirish-heading {
+  margin-top: 50px;
+}
+.kirish .kirish-form {
+  width: 350px;
+  height: 130px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.kirish .kirish-form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #1f2026;
+  outline: none;
+}
+.kirish .kirish-form button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #7000ff;
+  color: white;
+  cursor: pointer;
+}
+.kirish .kirish-form button:hover {
+  opacity: 85%;
+}
+.kirish .kirish-form button:active {
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+.kirish .kirish-paragraph span a {
+  color: #007ff0;
+  text-decoration: none;
+}

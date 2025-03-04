@@ -1,0 +1,45 @@
+/* NavbarTop Start */
+
+@media only screen and (max-width: 960px) {
+  /* NavbarTop Responsive */
+  .navbar-top {
+    display: none;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+/* NavbarMiddle Start */
+
+@media only screen and (max-width: 1000px) {
+  /* NavbarMiddle Responsive */
+  .navbar-middle-collection {
+    margin-left: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+  }
+  .navbar-middle-collection li a {
+    color: white;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+/* NavbarBottom Start */
+@media only screen and (max-width: 960px) {
+  .navbar-bottom-wrapper nav {
+    display: none;
+  }
+}

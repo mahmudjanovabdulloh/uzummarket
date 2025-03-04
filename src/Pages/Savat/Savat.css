@@ -1,0 +1,14 @@
+.savat-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 20px;
+  margin: 50px 0;
+}
+.savat-page-divs {
+  width: 300px;
+  height: 500px;
+  background-color: cadetblue;
+}
+.savat-page-divs img {
+  width: 100%;
+}

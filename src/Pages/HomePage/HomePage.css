@@ -1,0 +1,21 @@
+.home-page-cover {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.home-page-cover,
+.home-page-cover .home-page-cover-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-page-cover .home-page-cover-div {
+  padding: 10px 25px;
+  border-radius: 15px;
+  gap: 10px;
+  background-color: #f2f4f7;
+}
+.home-page-cover a {
+  color: #1f2026;
+  text-decoration: none;
+}
