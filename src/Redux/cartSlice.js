@@ -18,7 +18,7 @@ const cartSlice = createSlice({
       }
 
       localStorage.setItem("cart", JSON.stringify(state.value));
-      toast.success("Savatga qo‘shildi!");
+      toast.success("Mahsulot qo‘shildi!");
     },
 
     decCart(state, { payload }) {
@@ -31,16 +31,19 @@ const cartSlice = createSlice({
       }
 
       localStorage.setItem("cart", JSON.stringify(state.value));
+      toast.success("Mahsulot kamaytirildi!");
     },
 
     removeCart(state, { payload }) {
       state.value = state.value.filter((item) => item.id !== payload.id);
       localStorage.setItem("cart", JSON.stringify(state.value));
+      toast.success("Mahsulot savatdan o‘chirildi!");
     },
 
     removeAllCart(state) {
       state.value = [];
       localStorage.setItem("cart", JSON.stringify(state.value));
+      toast.success("Savat bo'shatildi!");
     },
   },
 });

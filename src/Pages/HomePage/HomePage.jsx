@@ -6,17 +6,17 @@ import "swiper/css/autoplay";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Martimg from "../../assets/IMGS/8Mart.png";
-import Ramazonimg from "../../assets/IMGS/Ramazonga.png";
-import Harkunifoydaimg from "../../assets/IMGS/HarKuniFoyda.png";
-import Zamonaviyimg from "../../assets/IMGS/ZmonaviyBozor.png";
-import LiNingimg from "../../assets/IMGS/LiNing.png";
-import Boschimg from "../../assets/IMGS/Bosch.png";
-import Dysonimg from "../../assets/IMGS/Dyson.png";
-import Milavitsiyaimg from "../../assets/IMGS/Milavitsiya.png";
-import Premiumimg from "../../assets/IMGS/Premium.png";
-import Zargarlikimg from "../../assets/IMGS/ZargarlikBuyumlari.png";
-import TexnoSovgaimg from "../../assets/IMGS/TexnoSovgalar.png";
+import Martimg from "../../assets/IMGS/Martimg.png";
+import Ramazonimg from "../../assets/IMGS/Ramazonimg.png";
+import Harkunifoydaimg from "../../assets/IMGS/HarKuniFoydaimg.png";
+import Zamonaviyimg from "../../assets/IMGS/Zamonaviyimg.png";
+import LiNingimg from "../../assets/IMGS/LiNingimg.png";
+import Procterimg from "../../assets/IMGS/Procterimg.png";
+import Dysonimg from "../../assets/IMGS/Dysonimg.png";
+import Milavitsiyaimg from "../../assets/IMGS/Milavitsiyaimg.png";
+import Premiumimg from "../../assets/IMGS/Premiumimg.png";
+import Zargarlikimg from "../../assets/IMGS/Zargarlikimg.png";
+import TexnoSovgaimg from "../../assets/IMGS/TexnoSovgaimg.png";
 
 const HomePage = () => {
   return (
@@ -61,7 +61,7 @@ const HomePage = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Link>
-                <img src={Boschimg} alt="Bosch img" />
+                <img src={Procterimg} alt="Procter img" />
               </Link>
             </SwiperSlide>
             <SwiperSlide>
