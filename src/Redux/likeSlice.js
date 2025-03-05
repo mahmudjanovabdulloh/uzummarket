@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { toast } from "react-toastify";
 
 export const likeSlice = createSlice({
   name: "likes",
@@ -9,11 +10,13 @@ export const likeSlice = createSlice({
       if (!exists) {
         state.push(action.payload);
         localStorage.setItem("wishes", JSON.stringify(state));
+        toast.success("Tabriklayman! — Tanlandi!");
       }
     },
     removeFromLikes(state, action) {
       const updatedState = state.filter((el) => el.id !== action.payload.id);
       localStorage.setItem("wishes", JSON.stringify(updatedState));
+      toast.error("Tabriklayman! — Tanlanganlardan o'chirildi!");
       return updatedState;
     },
   },

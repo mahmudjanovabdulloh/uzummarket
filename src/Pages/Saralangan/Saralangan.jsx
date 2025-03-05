@@ -1,4 +1,5 @@
 import "./Saralangan.css";
+import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromLikes } from "../../Redux/likeSlice";
 
@@ -12,7 +13,7 @@ const Saralangan = () => {
         <div className="saralangan-page">
           <h1>Saralangan Mahsulotlar</h1>
           {likedItems.length === 0 ? (
-            <p>Hali hech qanday mahsulot yoqtirilmagan.</p>
+            <Link to="/">Mahsulotlardan tanlab qo&apos;yish</Link>
           ) : (
             <div className="products">
               {likedItems.map((item) => (

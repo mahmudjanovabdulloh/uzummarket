@@ -24,6 +24,7 @@ const HomePage = () => {
       <div className="container">
         <section className="home-page-wrapper">
           <Swiper
+            className="home-page-swiper"
             style={{ borderRadius: "20px" }}
             modules={[Navigation, Pagination, Autoplay]}
             navigation
@@ -34,57 +35,57 @@ const HomePage = () => {
             }}
             loop={true}
           >
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Martimg} alt="Mart img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Ramazonimg} alt="Ramazon img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Harkunifoydaimg} alt="Aksiya img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Zamonaviyimg} alt="Zamonaviy img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={LiNingimg} alt="LiNing img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Procterimg} alt="Procter img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Dysonimg} alt="Dyson img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Milavitsiyaimg} alt="Milavitsiya img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Premiumimg} alt="Premium img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={Zargarlikimg} alt="Zargarlik img" />
               </Link>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className="home-page-swiper-swiper-slide">
               <Link>
                 <img src={TexnoSovgaimg} alt="TexnoSovga img" />
               </Link>
