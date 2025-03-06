@@ -39,4 +39,5 @@
 
 .heart-icon.liked {
   color: red;
+  transition: color 0.3s;
 }
