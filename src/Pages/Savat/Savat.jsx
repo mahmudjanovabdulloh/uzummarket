@@ -25,12 +25,6 @@ const Savat = () => {
             </>
           ) : (
             <>
-              <button
-                className="clear-cart-btn"
-                onClick={() => dispatch(removeAllCart())}
-              >
-                🗑 Barchasini o‘chirish
-              </button>
               {data.map((item) => (
                 <div className="savat-page-divs" key={item.id}>
                   <Link to={`/products/${item.id}`}>
@@ -43,6 +37,12 @@ const Savat = () => {
                     <button onClick={() => dispatch(incCart(item))}>➕</button>
                     <button onClick={() => dispatch(removeCart(item))}>
                       ❌
+                    </button>
+                    <button
+                      className="clear-cart-btn"
+                      onClick={() => dispatch(removeAllCart())}
+                    >
+                      🗑 Barchasini o‘chirish
                     </button>
                   </div>
                 </div>
