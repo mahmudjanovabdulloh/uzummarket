@@ -30,7 +30,7 @@ const HomePage = () => {
             navigation
             pagination={{ clickable: true }}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             loop={true}
